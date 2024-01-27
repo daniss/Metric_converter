@@ -1,6 +1,6 @@
 # Currency Converter
 
-This Python script implements a simple currency converter GUI using Tkinter. It allows users to convert between Euros, Dollars, Pounds, Yen, and Yuan based on predefined conversion factors.
+This Python script implements a simple currency converter GUI using Tkinter. It allows users to convert between Euros, Dollars, Pounds, Yen, and Yuan based on Frankfurter API conversion factors.
 
 ## Features
 - User-friendly interface with dropdown menus for selecting the currencies to convert from and to.
@@ -20,4 +20,4 @@ This Python script implements a simple currency converter GUI using Tkinter. It 
 5. The converted amount will be displayed in the output text field.
 
 ## Note
-This script uses predefined conversion factors stored in a dictionary. If you need to update the conversion rates or add new currencies, you can modify the `conversion_factors` dictionary accordingly.
+This script uses conversion factors from an API. If you need to add new currencies, you can modify the `conversion_factors` dictionary accordingly.
